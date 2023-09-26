@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react'
 import './PostShare.css'
 import ProfileImage from '../../img/profileImg.jpg'
-import { UilScenery, UilPlayCircle, UilLocationPoint, UilSchedule } from "@iconscout/react-unicons"
+import { UilScenery, UilPlayCircle, UilLocationPoint, UilSchedule, UilTimes } from "@iconscout/react-unicons"
 
 const PostShare = () => {
 
@@ -28,6 +28,7 @@ const PostShare = () => {
         <div className="postOptions">
             <div className="option"
               style={{ color: "var(--video)" }}
+               onClick={() => imageRef.current.click()}
             >
                 <UilScenery />
                 Photo
@@ -55,6 +56,20 @@ const PostShare = () => {
               <input type="file" name="myImage" ref={imageRef} onChange={onImageChange}/>
             </div>
         </div>
+
+        {
+            image && (
+                <div className="previewImage">
+                    <UilTimes 
+                      onClick = {
+                        () => setImage(null)
+                      }
+                    />
+                    <img src={image.image} alt="" />
+                </div>
+            )
+        }
+
         </div> 
     </div>
   )
