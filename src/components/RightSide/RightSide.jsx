@@ -17,7 +17,9 @@ const RightSide = () => {
             <img src={Comment} alt="" />
         </div>    
 
-        <TrendCard />      
+        <TrendCard />     
+
+        <button className="button r-button">Share</button> 
     </div>
   )
 }
