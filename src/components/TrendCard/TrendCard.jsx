@@ -1,8 +1,11 @@
 import React from 'react'
+import './TrendCard.css'
 
 const TrendCard = () => {
   return (
-    <div>TrendCard</div>
+    <div className="TrendCard">
+        
+    </div>
   )
 }
 
