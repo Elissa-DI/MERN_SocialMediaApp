@@ -43,3 +43,6 @@
   background: transparent;
   border: 2px solid rgb(180, 2, 180);
 }
+::-webkit-scrollbar {
+  display: none;
+}
