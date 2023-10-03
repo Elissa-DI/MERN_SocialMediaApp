@@ -24,3 +24,8 @@
 {
     font-size: 13px;
 }
+@media(max-width: 600px) {
+    .TrendCard {
+        display: none;
+    }
+}

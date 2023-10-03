@@ -29,9 +29,6 @@
 }
 
 
-
-
-
 .postOptions{
     display: flex;
     justify-content: space-around;
@@ -76,6 +73,11 @@
     max-height: 20rem;
     object-fit: cover;
     border-radius: 0.5rem;
+}
+@media(max-width: 600px) {
+    .PostShare>div>input{
+        width: 85%;
+    }
 }
 
 
