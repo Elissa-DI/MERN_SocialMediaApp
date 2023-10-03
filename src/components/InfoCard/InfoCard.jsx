@@ -29,6 +29,8 @@ const InfoCard = () => {
             </span>
             <span>MicroSoft</span>
         </div>
+
+        <button className="button">Logout</button>
     </div>
   )
 }
