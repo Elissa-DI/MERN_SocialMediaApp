@@ -74,7 +74,7 @@
     object-fit: cover;
     border-radius: 0.5rem;
 }
-@media(max-width: 600px) {
+@media(max-width: 600px), (min-width: 768px) and (max-width: 900px) {
     .PostShare>div>input{
         width: 85%;
     }

@@ -4,7 +4,7 @@
     grid-template-columns: 18rem auto 20rem;
     gap: 1rem;
 }
-@media(max-width: 600px) {
+@media(max-width: 600px), (min-width: 768px) and (max-width: 900px) {
     .Home {
         display: flex;
         flex-direction: column;
