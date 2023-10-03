@@ -4,3 +4,18 @@
     grid-template-columns: 18rem auto 20rem;
     gap: 1rem;
 }
+@media(max-width: 600px) {
+    .Home {
+        display: flex;
+        flex-direction: column;
+    }
+    .Home>div:nth-of-type(1) {
+        order: 1;
+    } 
+    .Home>div:nth-of-type(2) {
+        order: 3;
+    } 
+    .Home>div:nth-of-type(3) {
+        order: 2;
+    } 
+}

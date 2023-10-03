@@ -13,6 +13,7 @@
     background-color: transparent;
     border: none;
     outline: none;
+    width: 75%;
 }
 .searchIcon {
     display: flex;
@@ -25,4 +26,23 @@
 }
 .searchIcon:hover {
     cursor: pointer;
+}
+@media(max-width: 600px) {
+    .LogoSearch {
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 3rem;
+    }
+    .Search {
+        width: 65%;
+    }
+    .Search>input {
+        width: 60%;
+    }
+    .searchIcon {
+        position: absolute;
+        right: 4px;
+        top: 5px;
+        padding: 9px;
+    }
 }
