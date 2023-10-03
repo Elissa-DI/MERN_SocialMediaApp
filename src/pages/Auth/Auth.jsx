@@ -14,8 +14,44 @@ const Auth = () => {
                 {/* <h6>Embark on a journey of discovery and exploration, as you delve into the captivating ideas that traverse the globe</h6> */}
             </div>
         </div>         
+
+        <Signup />
     </div>
   )
+}
+
+function Signup() {
+    return (
+        <div className="a-right">
+            <form className="infoForm">
+
+                <h3>Sign up</h3>
+                <div>
+                    <input 
+                       type="text" 
+                       placeholder='First Name' 
+                       className='infoInput' 
+                       name='firstname'
+                    />
+
+                    <input 
+                       type="text" 
+                       placeholder='Last Name' 
+                       className='infoInput' 
+                       name='lastname'
+                    />
+                </div>
+                <div>
+                <input 
+                       type="text" 
+                       placeholder='Usernames' 
+                       className='infoInput' 
+                       name='username'
+                    />
+                </div>
+            </form>
+        </div>
+    )
 }
 
 export default Auth
