@@ -24,7 +24,7 @@
 {
     font-size: 13px;
 }
-@media(max-width: 600px) {
+@media(max-width: 600px), (min-width: 768px) and (max-width: 900px) {
     .TrendCard {
         display: none;
     }

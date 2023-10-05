@@ -27,7 +27,7 @@
 .searchIcon:hover {
     cursor: pointer;
 }
-@media(max-width: 600px) {
+@media(max-width: 600px), (min-width: 768px) and (max-width: 900px) {
     .LogoSearch {
         width: 100%;
         justify-content: space-between;

@@ -25,3 +25,8 @@
     margin-top: 6rem;
     align-self: flex-end;
 }
+@media (max-width: 600px), (min-width: 768px) and (max-width: 900px) {
+    .InfoCard {
+        display: none;
+    }
+}
